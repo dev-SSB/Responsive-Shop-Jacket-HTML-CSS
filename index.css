@@ -16,16 +16,20 @@ html, body{
 }
 
 #nav{
+    /*  */
     /* background-color: red; */
-    height: 55px;
+    /* height: 55px; */
+    height: 8%;
     width: 100%;
 
     display: flex;
     align-items: center;
     justify-content: flex-end;
 
-    gap: 20px;
-    padding: 0 30px;
+    /* gap: 20px; */
+    gap: 1.3vw;
+    /* padding: 0 30px; */
+    padding: 0 2vw;
 }
 #nav h4{
     /* font-size: 20px; */
@@ -34,16 +38,21 @@ html, body{
 #nav i{
     background-color: black;
     color: white;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.3vw;
     border-radius: 50%;
-    padding: 10px;
+    /* padding: 10px; */
+    padding: 0.65vw;
 }
 
 
 #center{
+    /*  */
     /* background-color: blanchedalmond; */
+    height: 58%;
     width: 100%;
-    padding: 15px 80px;
+    /* padding: 15px 80px; */
+    padding: 1vw 5.2vw;
 }
 #center h1{
     /* font-size: 82px; */
@@ -53,10 +62,13 @@ html, body{
 }
 
 #center-in{
+    /*  */
     /* background-color: aqua; */
-    height: 100px;
+    /* height: 100px; */
+    height: 25%;
     width: 100%;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin-top: 2vw;
 
     display: flex;
     justify-content: space-between;
@@ -72,12 +84,15 @@ html, body{
 
 
 #right{
+    /* background-color: blue; */
     width: 20%;
 }
 .elem{
+    /*  */
     /* background-color: yellow; */
     /* margin: 5px; */
-    padding: 17px 0;
+    /* padding: 17px 0; */
+    padding: 1vw 0;
     border-top: 2px solid black;
 
     display: flex;
@@ -85,7 +100,8 @@ html, body{
     justify-content: space-between  ;
 }
 .elem i{
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1vw;
     font-size: 1.35vw;
     font-weight: 500;
     opacity: 0;
@@ -93,7 +109,7 @@ html, body{
 .elem a{
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    /* font-size: 18px; */
     font-size: 1.2vw;
     font-weight: 600;
 }
@@ -106,8 +122,8 @@ html, body{
 }
 
 #bottom{
-    margin-top: 4vw;
-    height: 33%;
+    /* margin-top: 4vw; */
+    height: calc(100% - 66%);
     width:100%;
     background: url('https://plus.unsplash.com/premium_photo-1661697202695-ee66c4a50edf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
@@ -122,10 +138,13 @@ html, body{
 
 
 @media (max-width:600px) {
+    #nav{
+        height: 8%;
+        gap: 5vw;
+    }
     #nav h4{
         /* font-size: 20px; */
         font-size: 5vw;
-        /* display: none; */
     }
     #nav i{
         font-size: 5vw;
@@ -133,21 +152,23 @@ html, body{
     
     
     #center{
+        height: 60%;
         width: 100%;
         padding: 5vw 6vw;
     }
     #center h1{
         /* font-size: 82px; */
-        font-size: 12vw;
-        line-height: 12vw;
+        font-size: 9vw;
+        line-height: 9vw;
         font-weight: 500;
     }
     
     #center-in{
         /* background-color: aqua; */
-        height: 100px;
+        /* height: 25%; */
         width: 100%;
-        margin-top: 20px;
+        /* margin-top: 20px; */
+        margin-top: 5vw;
         flex-direction: column;
     }
     #center-in p{
@@ -159,29 +180,32 @@ html, body{
 
     #right{
         width: 100%;
-        margin-top: 25px;
+        /* margin-top: 25px; */
+        margin-top: 5vw;
     }
     .elem{
-        padding: 8px 0;
+        /* padding: 8px 0; */
+        padding: 2vw 0;
     }
     .elem i{
-        font-size: 2vw;
+        /* font-size: 2vw; */
         font-size: 3vw;
         font-weight: 600;
         opacity: 0;
     }
     .elem a{
-        font-size: 2vw;
+        /* font-size: 2vw; */
         font-size: 3vw;
         font-weight: 700;
     }
     
     #bottom{
-        margin-top: 62px;
-        height: 37vh;
-        height: 37.3%;
+        /* margin-top: 62px; */
+        /* margin-top: 15vw; */
+        height: calc(100% - 68%);
         width:100%;
         background: url('https://plus.unsplash.com/premium_photo-1661697202695-ee66c4a50edf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
         background-size: cover;
+        
     }
 }
